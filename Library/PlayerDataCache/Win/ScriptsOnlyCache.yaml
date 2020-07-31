@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -73,15 +72,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10948}
     - Class: 114
-      Script: {instanceID: 11124}
+      Script: {instanceID: 11132}
     - Class: 114
-      Script: {instanceID: 11134}
+      Script: {instanceID: 11156}
     - Class: 114
       Script: {instanceID: 11504}
     - Class: 114
       Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 38360}
+      Script: {instanceID: 13780}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -451,6 +450,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 2d77141c0849ca05b6192e13cb0f8e6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: buttons
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -551,13 +556,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2d77141c0849ca05b6192e13cb0f8e6d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: buttons
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/chick/game/New Unity Project (1).exe
+  playerPath: C:/Users/chick/game1/New Unity Project (1).exe
